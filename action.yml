@@ -5,3 +5,5 @@ on:
   schedule:
     - cron: '0 0 1 * *'  # Monthly
 
+<!-- allows manual triggering from the Actions tab -->
+<!-- Runs automatically at 00:00 on the 1st of every month -->
