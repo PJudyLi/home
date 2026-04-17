@@ -1,0 +1,7 @@
+name: Update Node.js Version
+
+on:
+  workflow_dispatch:  # Manual trigger
+  schedule:
+    - cron: '0 0 1 * *'  # Monthly
+
